@@ -1,0 +1,170 @@
+.adminProfile{
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 2fr 0.5fr;
+    grid-template-rows: 1fr;
+  }
+  .adminProfile .sectionA{
+    background-color: #ffffff;
+  }
+  .adminProfile .sectionB{
+    background-color: rgb(2, 2, 40);
+  }
+  .adminProfile .logout{
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    margin-top: 60px;
+  }
+  .adminProfile .logout button{
+    width: 190px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: rgb(247, 213, 172);
+    padding: 15px 0 15px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  .adminProfile .logout button:hover{
+    background-color: rgb(68, 56, 6);
+    transition: all .4s ease-in-out;
+  }
+  .adminProfile .logout button:active{
+    background-color: black;
+    transition: .2s ease;
+  }
+  .adminProfile .logoStyle{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    margin-top: 30px;
+  }
+  /* .adminProfile .logoStyle h2{
+    color: red;
+  } */
+  .adminProfile .logoStyle .eff{
+    font-size: 100px;
+    width: 100px;
+    border: 10px solid rgba(0, 0, 0); 
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgb(22, 20, 11), -5px 5px 10px rgb(22, 20, 11);
+    text-align: center;
+    color: black;
+  }
+  .adminProfile .logoStyle .lash{
+    width: 120px;
+    text-align: center;
+    color: black;
+  }
+  .adminProfile .admin{
+    margin-top: 50px;
+  }
+  .adminProfile h2{
+    text-align: center;
+    font-family: 'Monoton';
+    color:rgb(0, 0, 0, 0.7)
+  }
+  .adminProfile span{
+    margin: auto;
+    font-family: 'Monoton';
+    color:rgb(0, 0, 0, 0.7);
+  }
+  .adminProfile .adminTable{
+    border-collapse: collapse;
+    border-color: rgb(247, 213, 172);
+    color: rgb(134, 115, 8)
+  }
+  .adminTable thead th{
+    width: 150px;
+    text-transform: capitalize;
+  }
+  .adminTable tbody td{
+    text-align: center;
+    color: #000000;
+    height: 30px;
+  }
+  .adminTable .btnBtnAdmin{
+    width: 50px;
+    margin: auto;
+    background-color: black;
+  }
+  .adminTable .btnBtnAdmin:hover{
+    background-color: black;
+  }
+  .faedit :hover{
+    color: rgb(184, 245, 92);
+  }
+  .fatrash :hover{
+    color: rgb(252, 108, 72);
+  }
+  .adminTable .locationBtn{
+    width: 100px;
+    color: black;
+    margin-bottom: 10px;
+    background-color: transparent;
+  }
+  .adminTable .locationBtn:hover{
+    color: gold;
+    background-color: black;
+  }
+  .adminTable .edit{
+    width: 20px;
+  }
+  .adminTable .trash{
+    width: 20px;
+  }
+  .displayPage{
+    display: block;
+  }
+  .hidePage{
+    display: none;
+  }
+  .popShow{
+    display: block;
+  }
+  .popHide{
+    display: none;
+  }
+  #statusCon{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 100px;
+    border-radius: 0 0 5px 5px;
+    padding: 5px;
+    border: 1px solid rgb(247, 213, 172)
+  }
+  .subStatusCon{
+    margin-top: 50px;
+    color: black;
+    text-align: center;
+  }
+  .statusLabel{
+    font-size: 19px;
+    font-weight: 600px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  #status-stat{
+    width: 200px;
+    margin-top: 30px;
+    border-radius: 3px;
+    height: 25px;
+  }
+  #popBtnCon .popBtn{
+    width: 70px;
+    height: 30px;
+    background-color: rgb(223, 217, 217);
+    text-align: center;
+    text-transform: lowercase;
+    border-radius: 3px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  #popBtnCon{
+    margin-top: 10px;
+    margin-left: 190px;
+  }

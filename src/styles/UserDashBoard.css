@@ -1,0 +1,160 @@
+.userProfile{
+    display: flex;
+    /* justify-content: space-between; */
+    min-height: 100vh;
+    /* overflow: hidden; */
+  }
+
+  .userProfile .sectionA{
+    /* background-color: rgb(2, 2, 40); */
+    background-image: url('/public/images/delivery14.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    width: 400px;
+  }
+  .secta{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 40, 0.657);
+  }
+  .sectionA h2{
+    color: #ffffff;
+    padding-top: 50px;
+    text-align: left;
+    text-transform: capitalize;
+    font-size: 30px;
+    padding-left: 40px;
+  }
+  .sectionA .details ul{
+    margin-top: 50px;
+    padding: 10px 40px;
+  }
+  .sectionA .details ul li{
+     color: #ffffff;
+     list-style-type:circle;
+     padding: 15px 10px;
+     text-transform: capitalize;
+     font-size: 18px;
+     font-weight: 600px;
+  }
+  .sectionA .orderBtn{
+    margin-top: 60px;
+  }
+  .sectionA .logout{
+    margin-bottom: 50px;
+  }
+  .sectionA button{
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-top: 15px;
+     width: 350px;
+     padding: 15px 0 15px 0;
+     text-align: center;
+     text-transform: uppercase;
+     background-color: rgb(247, 213, 172);
+     border: none;
+     outline: none;
+     cursor: pointer;
+  }
+  /* .sectionA button:hover{
+    background-color: rgb(253, 217, 14);
+    transition: .3s ease-in-out;
+  } */
+  .sectionA button:active{
+      background-color: rgb(218, 171, 114);
+      transition: .2s ease;
+  }
+  .userProfile .sectionB{
+    background-color: #ffffff;
+    overflow: scroll;
+  }
+  .sectionB .table{
+    width: auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    text-align: center;
+  }
+  .table thead tbody th td{
+     border-collapse: collapse;
+  }
+  .table th{
+    min-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;  
+    text-overflow: ellipsis; 
+  }
+  .table tbody td{
+    font-size: 12px;
+    padding: 5px;  
+    min-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+  }
+  .table th{
+    text-transform: capitalize;
+  }
+  .table .orderId{
+    width: 150px;
+  }
+  .noOfOthers{
+    font-weight: bolder;
+    font-size: 18px;
+  }
+  .parcelMsg{
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  .userBTn{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .theadHide{
+    display: none;
+  }
+  @media screen and (max-width: 900px){
+    .userProfile{
+        display: block;
+    }
+    .userProfile > div{
+        width: 100%;
+    }
+    .userProfile .sectionA{
+        width: 100%;
+    }
+    .sectionA button{
+        width: 150px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 35px;
+        padding-top: 10px;
+    }
+    .secta{
+        width: 450px;
+        margin: auto;
+        text-align: center
+    }
+    .sectionA h2{
+        text-align: center;
+        padding-left: 0;
+    }
+    .sectionB{
+        margin-top: 30px;
+    }
+    .sectionA .details ul li{
+        font-size: 14px;
+    }
+  }
+  @media screen and (max-width: 500px){
+    .secta{
+        width: 100%;
+        margin: auto;
+        text-align: center
+    }
+  }

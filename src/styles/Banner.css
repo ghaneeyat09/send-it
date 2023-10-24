@@ -1,0 +1,65 @@
+.banner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("/public/images/delivery11.jpg");
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.shippingText{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-family: 'Libre Franklin', sans-serif;
+}
+.shippingText h1{
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.shippingText h2{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    font-weight: 400;
+}
+.shippingText p{
+    font-size: 14px;
+    text-transform: capitalize;
+    margin-top: 8px;
+    font-weight: 300;
+}
+.shippingText button{
+    width: 180px;
+    height: 45px;
+    background-color: rgb(2, 2, 40);
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    text-transform: capitalize;
+
+}
+.ban-btn{
+    text-decoration: none;
+    color:rgb(247, 213, 172);
+}
+@media screen and (max-width: 1000px){
+    .shippingText{
+        width: 500px;
+    }
+    .shippingText h1{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 600px){
+    .shippingText{
+        width: 85%;
+    }
+    .shippingText h1{
+        font-size: 30px;
+    }
+}
