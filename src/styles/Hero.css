@@ -103,3 +103,8 @@
         padding: 180px 30px;
     }
 }
+@media screen and (max-width: 300px){
+    .btns{
+        width: 200px;
+    }
+}
