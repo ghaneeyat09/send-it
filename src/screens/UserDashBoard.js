@@ -139,7 +139,7 @@ const UserDashboard = () => {
                         <li>number of others on transit: <span className="ordersOnTransit"></span></li>
                     </ul>
                     </div>
-                    <Link to="CreateOrder"><button className="orderBtn">create order</button></Link>
+                    <Link to="/create-order"><button className="orderBtn">create order</button></Link>
                     <Link to="/"><button className="logout" onClick={logOutUser}>logOut</button></Link>
                     </div>
                 </div>
