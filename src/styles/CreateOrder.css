@@ -18,7 +18,11 @@
     z-index: 1;
   }
   .createOrder .logoStyle{
-    padding-top: 20px;
+    padding-top: 30px;
+  }
+  .logoStyle h2{
+    text-align: center;
+    color: #ffffff;
   }
   .createOrder form{
     width: 450px;
@@ -72,4 +76,9 @@
   .orderSubmit:active{
     background-color: rgb(218, 171, 114);;
     transition: .3s ease-in-out;
+  }
+  @media screen and (max-width: 600px){
+    .createOrder form{
+        width: 80%;
+    }
   }
